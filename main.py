@@ -4,7 +4,7 @@ import mysql.connector
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 myconn = mysql.connector.connect(host="localhost", user="root", passwd="London@99")
 
-print('type is ',type(myconn))
+print('type is',type(myconn))
 
 # printing the connection object
 print(myconn)
@@ -18,3 +18,4 @@ except:
 for x in cur:
     print(x)
 myconn.close()
+
